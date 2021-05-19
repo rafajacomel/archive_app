@@ -3,7 +3,7 @@ from django.db import models
 
 
 class Fix(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
     fspId = models.CharField(max_length=8)
     name = models.TextField(max_length=32)
     path = models.TextField(max_length=32)
