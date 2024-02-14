@@ -3,5 +3,5 @@ This is a MVP develop to simulate an archive tool. We use Python and Django as a
 
 # requirements
 python version 3.9.2 \
-django version 3.2.2 \
+django version 3.2.1 \
 djangorestframework version 3.12.4
